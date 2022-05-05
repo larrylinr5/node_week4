@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "34fd2903-a595-4d8c-86ee-2dcd5769f73d",
+		"name": "week4",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pacific-atoll-67840.herokuapp.com/posts",
+					"protocol": "https",
+					"host": [
+						"pacific-atoll-67840",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST API",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"user\":\"6271d698f1eaed983081306d\",\r\n    \"content\":\"test2\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://pacific-atoll-67840.herokuapp.com/posts",
+					"protocol": "https",
+					"host": [
+						"pacific-atoll-67840",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
