@@ -9,7 +9,7 @@ const postsSchema = new mongoose.Schema({
     type: String,
     default: ""
   },
-  createAt: {
+  createdAt : {
     type: Date,
     default: Date.now,
     select: false
